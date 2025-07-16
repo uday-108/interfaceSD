@@ -3,5 +3,5 @@
 
 void main()
 {
-    printf("wellcome to github.");
+    printf("wellcome to github and git.");
 }
