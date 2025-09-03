@@ -1,0 +1,5 @@
+listener 8883
+cafile /home/mqtt/certs/ca.crt
+certfile /home/mqtt/certs/server.crt
+keyfile /home/mqtt/certs/server.key
+require_certificate false

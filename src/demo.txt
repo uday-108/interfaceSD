@@ -1,0 +1,96 @@
+1.this is for ssl integrate with mqtt client using openssl as domain which is create ca, key and certificate.
+# Create CA Key and Cert
+openssl genrsa -out ca.key 2048
+openssl req -x509 -new -nodes -key ca.key -sha256 -days 1024 -out ca.crt
+
+# Create Server Key and CSR
+openssl genrsa -out server.key 2048
+openssl req -new -key server.key -out server.csr
+
+# Sign Server Cert with CA
+openssl x509 -req -in server.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out server.crt -days 1024 -sha256
+
+
+
+==============================================================================
+#define file_path Mount_Point"/.log_index"
+
+bool isfileExist(const char *);
+void add_file_to_index(const char *);
+void add_file_to_index(const char *filename)
+{
+    
+    FILE *index = fopen(file_path, "a");
+    if (index) {
+        fprintf(index, "%s\n", filename);
+        fflush(index);
+        fclose(index);
+    }
+}
+
+void remove_file_from_index(const char *filename)
+{
+    
+    // Read all lines except the one to remove
+    FILE *index = fopen(file_path, "r");
+    if (!index) return;
+
+    char temp_path[64];
+    snprintf(temp_path, sizeof(temp_path), "%s/.log_index_tmp", Mount_Point);
+
+    FILE *temp = fopen(temp_path, "w");
+    if (!temp) 
+    {
+		fflush(index);
+        fclose(index);
+        return;
+    }
+
+    char line[128];
+    while (fgets(line, sizeof(line), index)) 
+    {
+        // Strip newline for comparison
+        line[strcspn(line, "\r\n")] = 0;
+        if (strcmp(line, filename) != 0) {
+            fprintf(temp, "%s\n", line);
+        }
+    }
+	fflush(index);
+	fflush(temp);
+    fclose(index);
+    fclose(temp);
+
+    // Replace original index file with updated temp file
+    remove(file_path);
+    rename(temp_path, file_path);
+}
+
+bool isfileExist(const char *filename)
+{    
+	struct stat st;
+    if (stat(file_path, &st) != 0) {
+        // .log_index file does not exist yet
+        printf("log index file not exist\n");
+        return false;
+    }
+    FILE *index = fopen(file_path, "r");
+    if (!index)
+    {
+		return false;
+	} 
+
+    char line[128];
+    while (fgets(line, sizeof(line), index)) 
+    {
+        line[strcspn(line, "\r\n")] = 0; // strip newline
+        if (strcmp(line, filename) == 0) 
+        {
+			fflush(index);
+            fclose(index);
+            return true;
+        }
+    }
+	fflush(index);
+    fclose(index);
+    return false;
+}

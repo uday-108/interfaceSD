@@ -1,0 +1,6 @@
+listener 8883
+cafile D:\MQTT-CERTS/mosquitto.org.crt
+certfile D:\MQTT-CERTS/client.crt
+keyfile D:\MQTT-CERTS/client.key
+
+require_certificate true

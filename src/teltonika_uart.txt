@@ -1,0 +1,259 @@
+[2025.09.02 05:57:40]-[IND]     Lock scenario GSMError -> LED:GSM Red Vibro:0 Au                                                                             [2025.09.02 05:57:40]-[IND]     Lock scenario NoGPSFix -> LED:GNSS Red Vibro:0 A                                                                             [2025.09.02 05:57:40]-[NBL]     Turns GPS ON
+[2025.09.02 05:57:40]-[NonCfgPar]tate ONNon Cfg Parameter update status:1
+[2025.09.02 05:57:40]-[ModeChange]      [Mode.Change]-> eOperType_Null :4
+[2025.09.02 05:57:40]-[ModeChange]      Unknown on Stop profile is updated and r                                                                             [2025.09.02 05:57:40]-[ManDown]DFreeFall Configuration SUCCEEDED: Treshold:30 Du                                                                             [2025.09.02 05:57:40]-[TSYNC.SWITCH]    Timesync state changed: <Timesync check>                                                                             [2025.09.02 05:57:40]-[FOTAWEB] PeriodChk periodic connect
+[2025.09.02 05:57:40]-[NonCfgPar]       Non Cfg Parameter update status:1
+[2025.09.02 05:57:40]-[TSYNC.SWITCH] eM2Timesync state changed: <Timesync via GN                                                                             [2025.09.02 05:57:40]-[MovDetect]       state changed 0 -> 1 (movI:0, movD:0, sp                                                                             [2025.09.02 05:57:40]-[UPDATE]ctstarting update task, file dl type: 5 / web conn                                                                             ect, mode: REAL
+[2025.09.02 05:57:40]-[UPDATE]  starting update task, file dl type: 5 / web conn                                                                             ect, mode: REAL ExpFileMap:0x0
+[2025.09.02 05:57:40]-[UPDATE]  Current FOTA mode:web connect FileMap:0x0 AGPS:0                                                                             [2025.09.02 05:57:40]-[FOTAWEB] WebFsm state: 0 -> 1
+[2025.09.02 05:57:41]-[SCH]WEB] Task eM2M_Tid_InitRS232[120] has been scheduled.                                                                             [2025.09.02 05:57:41]-[ATCMD]ect>>[181] +EIND: 1 movement 0 -> 1, cnt:2 tmo:5
+[2025.09.02 05:57:41]-[ATCMD]   >>[108] OK0
+[2025.09.02 05:57:41]-[ATCMD]   >>[106] OK3,1,0,0,0
+[2025.09.02 05:57:41]-[GPS.API] [RE] gps control ilm sending OK
+[2025.09.02 05:57:42]-[SCH]CLBR]Task eM2M_Tid_InitRS232[120] has been scheduled.                                                                             [2025.09.02 05:57:42]-[PWR.SAVE]]       GPS on time: 1, GPS off time: 0 GPS on 1                                                                             [2025.09.02 05:57:43]-[GPS.API]t[SEND.PMTK.CMD] len: 15, data: [$PMTK299,0*2C
+[2025.09.02 05:57:44]-[GPS.API]t[RE] gps control ilm sending OKchanged:0 -> 1
+[2025.09.02 05:57:45]-[ModeChange]nition[Mode.Change]-> eOperType_Null :4
+[2025.09.02 05:57:45]-[ModeChange]      Unknown on Moving profile is updated and                                                                             [2025.09.02 05:57:45]-[GPS.API] [SEND.PMTK.CMD] len: 15, data: [$PMTK838,0*2D
+[2025.09.02 05:57:45]-[GPS.API] [RE] gps control ilm sending OK
+[2025.09.02 05:57:46]-[GPS.API] [RE] gps control ilm sending OK
+[2025.09.02 05:57:47]-[SLEEP]BR]WARNING @ 207:Sleep:3, not allowed! Reason:Movem                                                                             [2025.09.02 05:57:47]-[BLE.APP] [FSM.QUEUE.0288] fsm: 2/intialize, conn type: co                                                                             nnectionless, data addr: 0x0
+[2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER.ADD.0288] Added fsm: 2/intialize, con                                                                             n type: connectionless, idx: 0, job: 0/start, data addr: 0x0
+[2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER.START] job idx: 0, job 0/start, fsm:                                                                              /2intialize
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    ble init start
+[2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER.RNEXT.0040] Current fsm: intialize, c                                                                             onn type: connectionless, idx: 0, job: 0/start => next idx: 1, job: 2/register
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    ble init register
+[2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER] Got connectionless ble resp: 0/reg c                                                                             lient; fsm: intialize, idx: 1, job: 2/register
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    ble init reg handler
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    [gattc reg client cb] ble_info.reg_ctx:                                                                              F029605C, status: 0, app_uuid: B9BF5364A42145168AEA8794718AEAC9
+[2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER.RNEXT.0068] Current fsm: intialize, c                                                                             onn type: connectionless, idx: 1, job: 2/register => next idx: 2, job: 22/gatts                                                                              register
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    ble gatts init register
+[2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER] Got connectionless ble resp: 31/gatt                                                                             s register; fsm: intialize, idx: 2, job: 22/gatts register
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    ble gatts init reg handler
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    [gatts reg client cb] ble_info.reg_ctx:                                                                              F029605C, status: 0
+[2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER.RNEXT.0097] Current fsm: intialize, c                                                                             onn type: connectionless, idx: 2, job: 22/gatts register => next idx: 3, job: 23                                                                             /add service
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    ble gatts add service
+[2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER] Got connectionless ble resp: 32/add                                                                              service; fsm: intialize, idx: 3, job: 23/add service
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    ble gatts add service handler
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    [gatts add service cb] ble_info.reg_ctx:                                                                              F029605C, status: 0
+[2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER.RNEXT.0124] Current fsm: intialize, c                                                                             onn type: connectionless, idx: 3, job: 23/add service => next idx: 4, job: 24/ad                                                                             d characteristic
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    ble gatts add characteristic
+[2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER] Got connectionless ble resp: 33/add                                                                              characteristic; fsm: intialize, idx: 4, job: 24/add characteristic
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    ble gatts add characteristic handler
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    [gatts reg client cb] ble_info.reg_ctx:                                                                              F029605C, status: 0
+[2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER.RAGAIN.0157] Current fsm: intialize,                                                                              conn type: connectionless, idx: 4, job: 24/add characteristic => next idx: 4, jo                                                                             b: 24/add characteristic
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    ble gatts add characteristic
+[2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER] Got connectionless ble resp: 33/add                                                                              characteristic; fsm: intialize, idx: 4, job: 24/add characteristic
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    ble gatts add characteristic handler
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    [gatts reg client cb] ble_info.reg_ctx:                                                                              F029605C, status: 0
+[2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER.RNEXT.0155] Current fsm: intialize, c                                                                             onn type: connectionless, idx: 4, job: 24/add characteristic => next idx: 5, job                                                                             : 25/add descriptor
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    ble gatts add descriptor
+[2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER] Got connectionless ble resp: 34/add                                                                              descriptor; fsm: intialize, idx: 5, job: 25/add descriptor
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    ble  gatts add descriptor handler
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    [gatts reg client cb] ble_info.reg_ctx:                                                                              F029605C, status: 0
+[2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER.RNEXT.0185] Current fsm: intialize, c                                                                             onn type: connectionless, idx: 5, job: 25/add descriptor => next idx: 6, job: 26                                                                             /start service
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    ble gatts start service
+[2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER] Got connectionless ble resp: 35/star                                                                             t service; fsm: intialize, idx: 6, job: 26/start service
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    ble start service reg handler
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    [gatts reg client cb] ble_info.reg_ctx:                                                                              F029605C, status: 0
+[2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER.RNEXT.0212] Current fsm: intialize, c                                                                             onn type: connectionless, idx: 6, job: 26/start service => next idx: 7, job: 19/                                                                             finish
+[2025.09.02 05:57:47]-[BLE.FSM.INIT]    ble init finish
+[2025.09.02 05:57:47]-[SCH]TSK] Task eM2M_Tid_BLE_StartAdv[118] has been schedul                                                                             [2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER.REM] Removing fsm name: 2/intialize,                                                                              type: connectionless, EXPECTED ending
+[2025.09.02 05:57:47]-[BLE.APP] [JOBMASTER.REM] No need to free buffer
+[2025.09.02 05:57:47]-[GPS.API] WARNING @ 763:[GPS.CONTROL] State changed ON =>                                                                              [2025.09.02 05:57:48]-[GPS.API] [SEND.PMTK.CMD] len: 23, data: [$PMTK353,1,1,1,0                                                                             ,0*2A
+[2025.09.02 05:57:48]-[GPS.API] [MT3333] attempt to set gnss, status: true
+[2025.09.02 05:57:49]-[GPS.API] GNSS SET GPS GALILEO GLONASS successfull!
+[2025.09.02 05:57:49]-[GPS.API] [SEND.PMTK.CMD] len: 17, data: [$PMTK869,1,1*35
+[2025.09.02 05:57:50]-[BLE.TSK] WARNING @ 1102:Cant launch service_id broadcasti                                                                             [2025.09.02 05:57:50]-[GPS.API] [SEND.PMTK.CMD] len: 15, data: [$PMTK286,1*23
+[2025.09.02 05:57:51]-[MovDetect]ARNING state changed 1 -> 0 (movI:1, movD:1, sp                                                                             [2025.09.02 05:57:51]-[GPS.API]t[SEND.PMTK.CMD] len: 15, data: [$PMTK352,1*2B0
+[2025.09.02 05:57:52]-[MODEM]ectChanging Modem State from:2 to:1, cnt:2 tmo:60
+[2025.09.02 05:57:52]-[ATCMD]   >>[116] OK2
+[2025.09.02 05:57:52]-[ATCMD]   >>[122] OK=128
+[2025.09.02 05:57:52]-[ATCMD]   >>[124] +CSQ: 15, 5
+[2025.09.02 05:57:52]-[ATCMD]   >>[124] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[113] OK=0,1
+[2025.09.02 05:57:52]-[ATCMD]   >>[109] +ICCID: 89910274009021476837
+[2025.09.02 05:57:52]-[ATCMD]]  >>[109] OK0274009021476837] is valid
+[2025.09.02 05:57:52]-[ATCMD]   >>[104] +EPINC: 3, 3, 10, 10
+[2025.09.02 05:57:52]-[ATCMD]   >>[104] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[118] +CLCK: 0
+[2025.09.02 05:57:52]-[ATCMD]   >>[118] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[105] +CPIN: READY
+[2025.09.02 05:57:52]-[ATCMD]   >>[105] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[130] +CREG: 0,5
+[2025.09.02 05:57:52]-[AT.RSP]  Status: 5
+[2025.09.02 05:57:52]-[AT.RSP]  Registered To Roaming Network
+[2025.09.02 05:57:52]-[ATCMD]   >>[130] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[120] OK3,2
+[2025.09.02 05:57:52]-[ATCMD]   >>[110] OK2
+[2025.09.02 05:57:52]-[ATCMD]   >>[111] +COPS: 0,2,"40422"
+[2025.09.02 05:57:52]-[ATCMD]   >>[111] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[155] 404277364178082
+[2025.09.02 05:57:52]-[ATCMD]   >>[155] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[112] OK1
+[2025.09.02 05:57:52]-[ATCMD]   >>[114] OK3072
+[2025.09.02 05:57:52]-[ATCMD]   >>[161] OK
+[2025.09.02 05:57:52]-[MODEM]   Changing Modem State from:1 to:0
+[2025.09.02 05:57:52]-[SCH]     Task eM2M_Tid_OpSearch[3] has been scheduled. Pe                                                                             [2025.09.02 05:57:52]-[MODEM.ACTION]    GSM Update Reason:Eventual
+[2025.09.02 05:57:52]-[ATCMD]   >>[125] +CPAS: 0
+[2025.09.02 05:57:52]-[ATCMD]   >>[125] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[127] +CIND: 5,3,1,0,0,1,0
+[2025.09.02 05:57:52]-[AT.RSP]  in cind handler: 5,3,1,0,0,1,0
+
+[2025.09.02 05:57:52]-[ATCMD]   >>[127] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[155] 404277364178082
+[2025.09.02 05:57:52]-[ATCMD]   >>[155] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[130] +CREG: 2,5,"EE16","000081A7",0
+[2025.09.02 05:57:52]-[AT.RSP]  Status: 5
+[2025.09.02 05:57:52]-[AT.RSP]  Area Code: 60950
+[2025.09.02 05:57:52]-[AT.RSP]  Cell ID: 33191
+[2025.09.02 05:57:52]-[AT.RSP]  Registration Mode: 0
+[2025.09.02 05:57:52]-[AT.RSP]  Registered To Roaming Network
+[2025.09.02 05:57:52]-[ATCMD]   >>[130] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[124] +CSQ: 15, 5
+[2025.09.02 05:57:52]-[ATCMD]   >>[124] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[129] +CBC: 0, 100
+[2025.09.02 05:57:52]-[ATCMD]   >>[129] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[140] +CFUN: 1
+[2025.09.02 05:57:52]-[ATCMD]   >>[140] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[126] +COPS: 0,2,"40422"
+[2025.09.02 05:57:52]-[ATCMD]   >>[126] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[128] OK4
+[2025.09.02 05:57:52]-[MODEM.ACTION]ReadGSM Update Reason:Eventual
+[2025.09.02 05:57:52]-[ATCMD]   >>[125] +CPAS: 0
+[2025.09.02 05:57:52]-[ATCMD]   >>[125] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[127] +CIND: 5,3,1,0,0,1,0
+[2025.09.02 05:57:52]-[AT.RSP]  in cind handler: 5,3,1,0,0,1,0
+
+[2025.09.02 05:57:52]-[ATCMD]   >>[127] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[155] 404277364178082
+[2025.09.02 05:57:52]-[ATCMD]   >>[155] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[130] +CREG: 2,5,"EE16","000081A7",0
+[2025.09.02 05:57:52]-[AT.RSP]  Status: 5
+[2025.09.02 05:57:52]-[AT.RSP]  Area Code: 60950
+[2025.09.02 05:57:52]-[AT.RSP]  Cell ID: 33191
+[2025.09.02 05:57:52]-[AT.RSP]  Registration Mode: 0
+[2025.09.02 05:57:52]-[AT.RSP]  Registered To Roaming Network
+[2025.09.02 05:57:52]-[ATCMD]   >>[130] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[124] +CSQ: 15, 5
+[2025.09.02 05:57:52]-[ATCMD]   >>[124] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[129] +CBC: 0, 100
+[2025.09.02 05:57:52]-[ATCMD]   >>[129] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[140] +CFUN: 1
+[2025.09.02 05:57:52]-[ATCMD]   >>[140] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[126] +COPS: 0,2,"40422"
+[2025.09.02 05:57:52]-[ATCMD]   >>[126] OK
+[2025.09.02 05:57:52]-[ATCMD]   >>[128] OK4
+[2025.09.02 05:57:52]-[GPS.API]T[SEND.PMTK.CMD] len: 17, data: [$PMTK386,1.0*3C
+[2025.09.02 05:57:52]-[NETWORK] attempting to create pdp params. apn:  , len: 1
+[2025.09.02 05:57:52]-[NETWORK] [GPRS.OPEN.0337] Waiting for pdp create result,                                                                              waiting: 10 sec
+[2025.09.02 05:57:52]-[NETWORK] create pdp param success! account id: 52, evt se                                                                             nding: enabled
+[2025.09.02 05:57:52]-[NETWORK] pdp create event received!
+[2025.09.02 05:57:52]-[NETWORK] attempting to activate pdp with account id: 52,                                                                              login: , pass:
+[2025.09.02 05:57:52]-[NETWORK] [GPRS.OPEN.0337] Waiting for pdp act result, try                                                                             : 1, waiting: 60 sec
+[2025.09.02 05:57:53]-[ModeChange]      Unknown on Moving profile is updated and                                                                             [2025.09.02 05:57:53]-[NETWORK]tpdp activation success! acc id: 52, evt sending:                                                                              enabled
+[2025.09.02 05:57:53]-[FOTAWEB] WebFsm state: 1 -> 2
+[2025.09.02 05:57:53]-[FOTAWEB] FotaWeb domain:fm.teltonika.lt
+[2025.09.02 05:57:53]-[FOTAWEB] port: 5000
+[2025.09.02 05:57:53]-[NETWORK] [SOCKET.OPEN.0380] Target:1 Events Cleared
+[2025.09.02 05:57:53]-[NETWORK] [SOCKET.OPEN.0380] IP not in x.y.z.q format, nee                                                                             d to convert
+[2025.09.02 05:57:53]-[NETWORK] attempting to get host by name from: fm.teltonik                                                                             a.lt
+[2025.09.02 05:57:53]-[SCH]API] Task eM2M_Tid_AssistGnss[64] has been scheduled.                                                                             [2025.09.02 05:57:53]-[NonCfgPar]GPS.CONNon Cfg Parameter update status:1
+[2025.09.02 05:57:57]-[SLEEP]BR]WARNING @ 207:Sleep:3, not allowed! Reason:Movem                                                                             [2025.09.02 05:58:00]-[NETWORK.SOCKET.MT2503]ing[ACCOUNT.HOST*]:  16793140, 52
+[2025.09.02 05:58:00]-[NETWORK] DNS req result: 0, evt sending: enabled, VR sock                                                                             [2025.09.02 05:58:00]-[NETWORK] ERROR @ m2m_network_api.c(1952):get host by name                                                                             [2025.09.02 05:58:00]-[NETWORK]tattempting to close socked by id: 0ed sockets
+[2025.09.02 05:58:00]-[NETWORK] attempting to close socked by id: 1
+[2025.09.02 05:58:00]-[NETWORK] attempting to close socked by id: 2
+[2025.09.02 05:58:00]-[NETWORK] attempting to close socked by id: 3
+[2025.09.02 05:58:00]-[NETWORK] attempting to close socked by id: 4
+[2025.09.02 05:58:00]-[NETWORK] attempting to close socked by id: 5
+[2025.09.02 05:58:00]-[NETWORK] ERROR @ m2m_network_api.c(2528):[SOCKET.OPEN.038                                                                             0] Error: 8
+[2025.09.02 05:58:00]-[NETWORK] [ERROR.HANDLER.0380] Caller: 2/socket open, code                                                                             : 8
+[2025.09.02 05:58:00]-[FOTAWEB] ERROR @ m2m_fota_web.c(383):Failed to open socke                                                                             [2025.09.02 05:58:00]-[FOTAWEB] WebFsm state: 2 -> 6
+[2025.09.02 05:58:00]-[FOTAWEB] WebFsm state: 6 -> 7
+[2025.09.02 05:58:00]-[SCH]     Task eM2M_Tid_FotaWebCheckPeriod[34] has been sc                                                                             [2025.09.02 05:58:07]-[SLEEP]BR]WARNING @ 207:Sleep:3, not allowed! Reason:Movem                                                                             [2025.09.02 05:58:07]-[MODEM.ACTION]arioGSM Update Reason:Periodic
+[2025.09.02 05:58:07]-[ATCMD]   >>[125] +CPAS: 0
+[2025.09.02 05:58:07]-[ATCMD]   >>[125] OK
+[2025.09.02 05:58:07]-[ATCMD]   >>[127] +CIND: 5,3,1,0,0,1,0
+[2025.09.02 05:58:07]-[AT.RSP]  in cind handler: 5,3,1,0,0,1,0
+
+[2025.09.02 05:58:07]-[ATCMD]   >>[127] OK
+[2025.09.02 05:58:07]-[ATCMD]   >>[155] 404277364178082
+[2025.09.02 05:58:07]-[ATCMD]   >>[155] OK
+[2025.09.02 05:58:07]-[ATCMD]   >>[130] +CREG: 2,5,"EE16","000081A7",0
+[2025.09.02 05:58:07]-[AT.RSP]  Status: 5
+[2025.09.02 05:58:07]-[AT.RSP]  Area Code: 60950
+[2025.09.02 05:58:07]-[AT.RSP]  Cell ID: 33191
+[2025.09.02 05:58:07]-[AT.RSP]  Registration Mode: 0
+[2025.09.02 05:58:07]-[AT.RSP]  Registered To Roaming Network
+[2025.09.02 05:58:07]-[ATCMD]   >>[130] OK
+[2025.09.02 05:58:07]-[ATCMD]   >>[124] +CSQ: 17, 99
+[2025.09.02 05:58:07]-[ATCMD]   >>[124] OK
+[2025.09.02 05:58:07]-[ATCMD]   >>[129] +CBC: 0, 100
+[2025.09.02 05:58:07]-[ATCMD]   >>[129] OK
+[2025.09.02 05:58:07]-[ATCMD]   >>[140] +CFUN: 1
+[2025.09.02 05:58:07]-[ATCMD]   >>[140] OK
+[2025.09.02 05:58:07]-[ATCMD]   >>[126] +COPS: 0,2,"40422"
+[2025.09.02 05:58:07]-[ATCMD]   >>[126] OK
+[2025.09.02 05:58:07]-[ATCMD]   >>[128] OK4
+[2025.09.02 05:58:17]-[SLEEP]BR]WARNING @ 207:Sleep:3, not allowed! Reason:Movem                                                                             [2025.09.02 05:58:18]-[MovDetect]cenariostate changed 0 -> 1 (movI:0, movD:1, sp                                                                             [2025.09.02 05:58:27]-[SLEEP]BR]WARNING @ 207:Sleep:3, not allowed! Reason:Movem                                                                             [2025.09.02 05:58:29]-[MovDetect]cenariostate changed 1 -> 0 (movI:1, movD:1, sp                                                                             [2025.09.02 05:58:37]-[SLEEP]BR]WARNING @ 207:Sleep:3, not allowed! Reason:Movem                                                                             [2025.09.02 05:58:37]-[MODEM.ACTION]arioGSM Update Reason:Periodic
+[2025.09.02 05:58:37]-[ATCMD]   >>[125] +CPAS: 0
+[2025.09.02 05:58:37]-[ATCMD]   >>[125] OK
+[2025.09.02 05:58:37]-[ATCMD]   >>[127] +CIND: 5,4,1,0,0,1,0
+[2025.09.02 05:58:37]-[AT.RSP]  in cind handler: 5,4,1,0,0,1,0
+
+[2025.09.02 05:58:37]-[ATCMD]   >>[127] OK
+[2025.09.02 05:58:37]-[ATCMD]   >>[155] 404277364178082
+[2025.09.02 05:58:37]-[ATCMD]   >>[155] OK
+[2025.09.02 05:58:37]-[ATCMD]   >>[130] +CREG: 2,5,"EE16","000081A7",0
+[2025.09.02 05:58:37]-[AT.RSP]  Status: 5
+[2025.09.02 05:58:37]-[AT.RSP]  Area Code: 60950
+[2025.09.02 05:58:37]-[AT.RSP]  Cell ID: 33191
+[2025.09.02 05:58:37]-[AT.RSP]  Registration Mode: 0
+[2025.09.02 05:58:37]-[AT.RSP]  Registered To Roaming Network
+[2025.09.02 05:58:37]-[ATCMD]   >>[130] OK
+[2025.09.02 05:58:37]-[ATCMD]   >>[124] +CSQ: 20, 99
+[2025.09.02 05:58:37]-[ATCMD]   >>[124] OK
+[2025.09.02 05:58:37]-[ATCMD]   >>[129] +CBC: 0, 100
+[2025.09.02 05:58:37]-[ATCMD]   >>[129] OK
+[2025.09.02 05:58:37]-[ATCMD]   >>[140] +CFUN: 1
+[2025.09.02 05:58:37]-[ATCMD]   >>[140] OK
+[2025.09.02 05:58:37]-[ATCMD]   >>[126] +COPS: 0,2,"40422"
+[2025.09.02 05:58:37]-[ATCMD]   >>[126] OK
+[2025.09.02 05:58:37]-[ATCMD]   >>[128] OK4
+[2025.09.02 05:58:39]-[BLE.APP]tbt init: 1, ble init: 1, sens en: 0, cnt: 0/120,                                                                              listen: 1, broadcast: 0/0x0000
+[2025.09.02 05:58:39]-[BLE.APP] [00] connected: 0, target addr: 00:00:00:00:00:0                                                                             0
+[2025.09.02 05:58:39]-[BLE.APP] [01] connected: 0, target addr: 00:00:00:00:00:0                                                                             0
+[2025.09.02 05:58:39]-[BLE.APP] [02] connected: 0, target addr: 00:00:00:00:00:0                                                                             0
+[2025.09.02 05:58:39]-[BLE.APP] [03] connected: 0, target addr: 00:00:00:00:00:0                                                                             0
+[2025.09.02 05:58:39]-[BLE.APP] ble scan status: 0, caller status: 0/?, unlimite                                                                             d: 0
+[2025.09.02 05:58:39]-[BLE.APP] [Jobmaster status] Assigned: 0, job_idx: 0, fsm:                                                                              0/none, job: 0/start
+[2025.09.02 05:58:39]-[BLE.APP] [Connmaster status]
+[00] Connected: 0, addr: 0x000000000000; job assigned: 0, idx: 0, fsm type: 0/no                                                                             ne, state: start, data addr: 0x0
+[01] Connected: 0, addr: 0x000000000000; job assigned: 0, idx: 0, fsm type: 0/no                                                                             ne, state: start, data addr: 0x0
+[02] Connected: 0, addr: 0x000000000000; job assigned: 0, idx: 0, fsm type: 0/no                                                                             ne, state: start, data addr: 0x0
+[03] Connected: 0, addr: 0x000000000000; job assigned: 0, idx: 0, fsm type: 0/no                                                                             ne, state: start, data addr: 0x0
+[2025.09.02 05:58:42]-[PWR.SAVE]]       GPS on time: 61, GPS off time: 0 GPS on                                                                              [2025.09.02 05:58:44]-[MovDetect]       state changed 0 -> 1 (movI:0, movD:1, sp                                                                             [2025.09.02 05:58:47]-[SLEEP]BR]WARNING @ 207:Sleep:3, not allowed! Reason:Movem                                                                             [2025.09.02 05:58:56]-[MovDetect]03_STD_state changed 1 -> 0 (movI:1, movD:1, sp                                                                             [2025.09.02 05:58:57]-[SLEEP]BR]WARNING @ 207:Sleep:3, not allowed! Reason:Movem                                                                             [2025.09.02 05:59:07]-[SLEEP]BR]WARNING @ 207:Sleep:3, not allowed! Reason:Movem                                                                             [2025.09.02 05:59:07]-[MODEM.ACTION]arioGSM Update Reason:Periodic
+[2025.09.02 05:59:07]-[ATCMD]   >>[125] +CPAS: 0
+[2025.09.02 05:59:07]-[ATCMD]   >>[125] OK
+[2025.09.02 05:59:07]-[ATCMD]   >>[127] +CIND: 5,4,1,0,0,1,0
+[2025.09.02 05:59:07]-[AT.RSP]  in cind handler: 5,4,1,0,0,1,0
+
+[2025.09.02 05:59:07]-[ATCMD]   >>[127] OK
+[2025.09.02 05:59:07]-[ATCMD]   >>[155] 404277364178082
+[2025.09.02 05:59:07]-[ATCMD]   >>[155] OK
+[2025.09.02 05:59:07]-[ATCMD]   >>[130] +CREG: 2,5,"EE16","000081A7",0
+[2025.09.02 05:59:07]-[AT.RSP]  Status: 5
+[2025.09.02 05:59:07]-[AT.RSP]  Area Code: 60950
+[2025.09.02 05:59:07]-[AT.RSP]  Cell ID: 33191
+[2025.09.02 05:59:07]-[AT.RSP]  Registration Mode: 0
+[2025.09.02 05:59:07]-[AT.RSP]  Registered To Roaming Network
+[2025.09.02 05:59:07]-[ATCMD]   >>[130] OK
+[2025.09.02 05:59:07]-[ATCMD]   >>[124] +CSQ: 21, 99
+[2025.09.02 05:59:07]-[ATCMD]   >>[124] OK
+[2025.09.02 05:59:07]-[ATCMD]   >>[129] +CBC: 0, 100
+[2025.09.02 05:59:07]-[ATCMD]   >>[129] OK
+[2025.09.02 05:59:07]-[ATCMD]   >>[140] +CFUN: 1
+[2025.09.02 05:59:07]-[ATCMD]   >>[140] OK
+[2025.09.02 05:59:07]-[ATCMD]   >>[126] +COPS: 0,2,"40422"
+[2025.09.02 05:59:07]-[ATCMD]   >>[126] OK
+[2025.09.02 05:59:07]-[ATCMD]   >>[128] OK4
+[2025.09.02 05:59:17]-[SLEEP]BR]WARNING @ 207:Sleep:3, not allowed! Reason:Movem                                                                             [2025.09.02 05:59:19]-[IND]etectLock scenario FullyCharged -> LED:Bat Green Vibr                                                                             [2025.09.02 05:59:19]-[MovDetect]harger state changed 0 -> 1 (movI:0, movD:1, sp                                                                             [2025.09.02 05:59:19]-[MovDetect]       Delaying movement 0 -> 1, cnt:1 tmo:5
